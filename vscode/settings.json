@@ -1,0 +1,217 @@
+{
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "MinGW": {
+      "path": "${env:USERPROFILE}\\scoop\\apps\\git\\current\\bin\\bash.exe"
+    },
+    "PowerShell": {
+      "source": "PowerShell"
+    }
+  },
+  // not supported yet...
+  // "terminal.fontLigatures": true,
+
+  // ================================================================================
+  // Git
+  // ================================================================================
+  "git.openRepositoryInParentFolders": "always",
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.gitCommands.skipConfirmations": [
+    "fetch:command",
+    "stash-push:command",
+    "switch:command",
+    "push:command"
+  ],
+
+  // ================================================================================
+  // Debugger
+  // ================================================================================
+  "debug.toolBarLocation": "hidden",
+  "debug.inlineValues": "on",
+  "debug.onTaskErrors": "abort",
+  "debug.openDebug": "neverOpen",
+
+  "statusbarDebugger.command": "start",
+  "statusbarDebugger.template": "$(bug)",
+  "statusbarDebugger.actionsIcons": [
+    "$(debug-pause)",
+    "$(debug-continue)",
+    "$(debug-step-over)",
+    "$(debug-step-into)",
+    "$(debug-step-out)",
+    "$(debug-step-back)"
+  ],
+  "statusbarDebugger.actions": [
+    "pause",
+    "continue",
+    "step_over",
+    "step_into",
+    "step_out",
+    "restart"
+  ],
+
+  // ================================================================================
+  // LSP
+  // ================================================================================
+  "omnisharp.enableRoslynAnalyzers": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ================================================================================
+  // Editor
+  // ================================================================================
+  "editor.inlineSuggest.enabled": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "editor.cursorBlinking": "solid",
+  "editor.guides.indentation": false,
+  "editor.fontSize": 15,
+  "editor.lineNumbers": "relative",
+  // "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4,
+  "editor.hover.sticky": true,
+  "editor.accessibilitySupport": "off",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 5,
+  "editor.cursorSurroundingLines": 8,
+
+  // ================================================================================
+  // Miscelanious
+  // ================================================================================
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "explorer.confirmDragAndDrop": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "github.copilot.advanced": {},
+
+  // ================================================================================
+  // Theme
+  // ================================================================================
+  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.labelFormat": "short",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.revealIfOpen": true,
+  "workbench.colorCustomizations": {
+    "editor.background": "#1c2128",
+    "sideBar.background": "#1c2128",
+    "panel.background": "#1c2128",
+    "activityBar.activeBorder": "#1c2128",
+    "activityBar.foreground": "#7ce38b",
+    "activityBarBadge.background": "#7ce38b",
+    "activityBarBadge.foreground": "#1c2128",
+    "activityBar.background": "#1c2128",
+    "statusBar.debuggingBackground": "#1c2128",
+    "editor.selectionBackground": "#ffffff50",
+    "statusBar.background": "#1c2128",
+    "statusBar.noFolderBackground": "#1c2128",
+    "titleBar.inactiveBackground": "#1c2128",
+    "titleBar.activeBackground": "#1c2128",
+    "editorCursor.foreground": "#ffffff",
+    "editorCursor.background": "#1c2128",
+    "editorLineNumber.activeForeground": "#ffffff"
+  },
+
+  // ================================================================================
+  // APC - UI Customizer
+  // ================================================================================
+  "window.titleBarStyle": "native",
+  // "apc.font.family": "JetBrainsMono Nerd Font Mono",
+  "apc.menubar.compact": true,
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden",
+    // "transparent": true,
+    // "opacity": 0.97
+  },
+  "apc.header": {
+    "height": 40,
+    "compact": 100,
+    // "default": 20
+  },
+  "apc.sidebar.titlebar": {
+    "height": 45,
+    "fontSize": 14
+  },
+  "apc.activityBar": {
+    "size": 40,
+    "itemSize": 40,
+    "itemMargin": 0
+  },
+  "apc.stylesheet": {
+    "@keyframes fadeIn": "from { opacity: 0; } to { opacity: 1; }",
+    "*": "transition: all 0.02s",
+    ".title-label": "display: none !important",
+    ".composite.title": "display: block !important",
+    ".monaco-workbench .part.sidebar .title-actions .actions-container": "justify-content: space-evenly !important",
+    ".editor-actions": "display: none !important",
+    "div.tab[aria-selected='true'] > .tab-border-top-container": "display: block !important; height: 2.5px; width: 100%; position: absolute; left: 0; box-shadow: 0px -10px 50px 3px #fff; z-index: 10; animation: 0.2s linear fadeIn !important",
+    ".tabs-border-bottom::after": "background: transparent !important",
+    ".monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind": "background: transparent; color: #a7b0f3",
+    ".inline-title-bar:not(.horizontal-activitybar) .monaco-workbench:not(.fullscreen) .activitybar:not(.right) .content": "height: 100% !important; transform: none !important",
+    ".inline-title-bar:not(.horizontal-activitybar) .monaco-workbench div.activitybar.bordered.left .content": "border-right: 1px solid #0003 !important",
+    ".monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before": "border: none !important; width: 2.5px; background: linear-gradient(to top, #06f, #0af); box-shadow: 5px 0 15px #08f",
+    ".custom-activitybar:not(.horizontal-activitybar) div.monaco-workbench div.activitybar>div.content div.monaco-action-bar ul.actions-container li.action-item": "margin-top: 0 !important",
+    // make workbench editor titlebar transparent
+    ".monaco-workbench .part.editor > .content .title": "background: transparent !important; border: none !important",
+    ".monaco-workbench .part.editor > .content .title .tabs-and-actions-container .tabs-container .tab": "background: transparent !important; border: none !important; box-shadow: none !important",
+    
+    // add fade in animation to workbench editor titlebar
+    ".tab": "animation: 0.1s linear fadeIn !important",
+
+    ".monaco-workbench .part.editor > .content .title .tabs-and-actions-container .tabs-container .tab.selected": "background: #ffffff10 !important; transition: all 0.2s",
+
+    // make workbench editor hover transparent
+    ".monaco-workbench .part.editor > .content:hover .title:hover .tabs-and-actions-container .tabs-container .tab:hover": "background: #ffffff10 !important; transition: all 0.2s",
+    
+    // center workbench editor titlebar
+    ".monaco-workbench .part.editor > .content .title .tabs-and-actions-container .tabs-container": "justify-content: center !important",  
+    
+    // make file hover in side bar ease in
+    ".monaco-list-row:hover": "transition: all 0.15s; background: #ffffff10 !important; color: #fff !important",
+
+    // make focused file in side bar more visible
+    ".monaco-list-row.focused": "background: #ffffff20 !important; color: #fff !important",
+
+    //TODO: center file explorer rows
+    "div.monaco-list-rows": "margin: 0 !important",
+
+    // add fade in animation to folder expand/collapse
+    ".monaco-list-row": "animation: 0.15s linear fadeIn !important",
+
+    "a.action-label.codicon.codicon-toolbar-more": "display: none !important",
+    // ".action-item.menu-entry": "padding: 3px !important; border: 2px solid #fff9 !important; border-radius: 5px !important",
+
+    // hide scroll decoration
+    ".scroll-decoration": "background: transparent; display: none !important"
+  },
+  "workbench.editor.tabActionCloseVisibility": true,
+  "DockerRun.DisableAutoGenerateConfig": true,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.enablePreview": false
+}
