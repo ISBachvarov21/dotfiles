@@ -1,0 +1,569 @@
+2024-09-22T19:15:49.003Z [Modules] Modules initializing
+2024-09-22T19:15:49.003Z [Modules] Distribution: remote
+2024-09-22T19:15:49.003Z [Modules] Host updates: enabled
+2024-09-22T19:15:49.003Z [Modules] Module updates: enabled
+2024-09-22T19:15:49.003Z [Modules] Module install path: /home/ivailobsu/.config/discord/0.0.68/modules
+2024-09-22T19:15:49.003Z [Modules] Module installed file path: /home/ivailobsu/.config/discord/0.0.68/modules/installed.json
+2024-09-22T19:15:49.003Z [Modules] Module download path: /home/ivailobsu/.config/discord/0.0.68/modules/pending
+2024-09-22T19:15:49.477Z [Modules] Bootstrapping...
+2024-09-22T19:15:49.478Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2024-09-22T19:15:49.480Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2024-09-22T19:15:49.480Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2024-09-22T19:15:49.485Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2024-09-22T19:15:49.485Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2024-09-22T19:15:49.491Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2024-09-22T19:15:49.491Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2024-09-22T19:15:49.493Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2024-09-22T19:15:49.493Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2024-09-22T19:15:49.494Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2024-09-22T19:15:49.494Z [Modules] Installing discord_zstd@0 from /opt/discord/resources/bootstrap/discord_zstd.zip
+2024-09-22T19:15:49.494Z [Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_zstd.zip'
+2024-09-22T19:15:49.494Z [Modules] Finished module installations. [success: 0] [failure: 6]
+2024-09-22T19:15:49.494Z [Modules] Checking for host updates.
+2024-09-22T19:15:54.820Z [Modules] Host is up to date.
+2024-09-22T19:15:54.820Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-22T19:15:54.857Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2024-09-22T19:15:54.857Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2024-09-22T19:15:54.857Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2024-09-22T19:15:54.857Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2024-09-22T19:15:54.857Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2024-09-22T19:15:54.857Z [Modules] Module update available: discord_zstd@1 [installed: 0]
+2024-09-22T19:15:54.857Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2024-09-22T19:15:54.858Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip
+2024-09-22T19:15:55.144Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 2%
+2024-09-22T19:15:55.153Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 5%
+2024-09-22T19:15:55.153Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 6%
+2024-09-22T19:15:55.161Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 8%
+2024-09-22T19:15:55.162Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 12%
+2024-09-22T19:15:55.163Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 14%
+2024-09-22T19:15:55.164Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 15%
+2024-09-22T19:15:55.170Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 18%
+2024-09-22T19:15:55.170Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 20%
+2024-09-22T19:15:55.171Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 23%
+2024-09-22T19:15:55.172Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 26%
+2024-09-22T19:15:55.172Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 27%
+2024-09-22T19:15:55.173Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 30%
+2024-09-22T19:15:55.174Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 35%
+2024-09-22T19:15:55.174Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 38%
+2024-09-22T19:15:55.175Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 41%
+2024-09-22T19:15:55.176Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 43%
+2024-09-22T19:15:55.179Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 45%
+2024-09-22T19:15:55.180Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 48%
+2024-09-22T19:15:55.180Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 50%
+2024-09-22T19:15:55.181Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 52%
+2024-09-22T19:15:55.181Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 55%
+2024-09-22T19:15:55.182Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 60%
+2024-09-22T19:15:55.183Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 63%
+2024-09-22T19:15:55.183Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 66%
+2024-09-22T19:15:55.184Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 68%
+2024-09-22T19:15:55.184Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 69%
+2024-09-22T19:15:55.184Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 72%
+2024-09-22T19:15:55.185Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 75%
+2024-09-22T19:15:55.186Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 77%
+2024-09-22T19:15:55.186Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 79%
+2024-09-22T19:15:55.187Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 81%
+2024-09-22T19:15:55.187Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 83%
+2024-09-22T19:15:55.188Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 86%
+2024-09-22T19:15:55.189Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 91%
+2024-09-22T19:15:55.189Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 94%
+2024-09-22T19:15:55.190Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 97%
+2024-09-22T19:15:55.190Z [Modules] Streaming discord_desktop_core@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip: 100%
+2024-09-22T19:15:55.192Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2024-09-22T19:15:55.193Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip
+2024-09-22T19:15:55.395Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 3%
+2024-09-22T19:15:55.396Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 9%
+2024-09-22T19:15:55.397Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 17%
+2024-09-22T19:15:55.398Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 20%
+2024-09-22T19:15:55.398Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 23%
+2024-09-22T19:15:55.398Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 26%
+2024-09-22T19:15:55.399Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 27%
+2024-09-22T19:15:55.399Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 30%
+2024-09-22T19:15:55.400Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 31%
+2024-09-22T19:15:55.400Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 34%
+2024-09-22T19:15:55.400Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 37%
+2024-09-22T19:15:55.401Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 40%
+2024-09-22T19:15:55.402Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 43%
+2024-09-22T19:15:55.402Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 44%
+2024-09-22T19:15:55.402Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 47%
+2024-09-22T19:15:55.403Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 49%
+2024-09-22T19:15:55.404Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 52%
+2024-09-22T19:15:55.404Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 54%
+2024-09-22T19:15:55.413Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 57%
+2024-09-22T19:15:55.414Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 60%
+2024-09-22T19:15:55.415Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 65%
+2024-09-22T19:15:55.416Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 71%
+2024-09-22T19:15:55.416Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 77%
+2024-09-22T19:15:55.417Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 83%
+2024-09-22T19:15:55.418Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 92%
+2024-09-22T19:15:55.418Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 97%
+2024-09-22T19:15:55.419Z [Modules] Streaming discord_erlpack@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip: 100%
+2024-09-22T19:15:55.419Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2024-09-22T19:15:55.420Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip
+2024-09-22T19:15:55.868Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 1%
+2024-09-22T19:15:55.878Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 2%
+2024-09-22T19:15:55.887Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 3%
+2024-09-22T19:15:55.891Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 4%
+2024-09-22T19:15:55.893Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 5%
+2024-09-22T19:15:55.896Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 6%
+2024-09-22T19:15:55.898Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 7%
+2024-09-22T19:15:55.901Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 8%
+2024-09-22T19:15:55.903Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 9%
+2024-09-22T19:15:55.904Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 10%
+2024-09-22T19:15:55.907Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 11%
+2024-09-22T19:15:55.908Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 12%
+2024-09-22T19:15:55.910Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 13%
+2024-09-22T19:15:55.911Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 14%
+2024-09-22T19:15:55.913Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 15%
+2024-09-22T19:15:55.913Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 16%
+2024-09-22T19:15:55.915Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 17%
+2024-09-22T19:15:55.915Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 18%
+2024-09-22T19:15:55.916Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 19%
+2024-09-22T19:15:55.917Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 20%
+2024-09-22T19:15:55.918Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 21%
+2024-09-22T19:15:55.919Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 22%
+2024-09-22T19:15:55.920Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 23%
+2024-09-22T19:15:55.921Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 24%
+2024-09-22T19:15:55.922Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 25%
+2024-09-22T19:15:55.923Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 26%
+2024-09-22T19:15:55.923Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 27%
+2024-09-22T19:15:55.924Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 28%
+2024-09-22T19:15:55.926Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 29%
+2024-09-22T19:15:55.926Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 30%
+2024-09-22T19:15:55.927Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 31%
+2024-09-22T19:15:55.928Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 32%
+2024-09-22T19:15:55.929Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 33%
+2024-09-22T19:15:55.929Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 34%
+2024-09-22T19:15:55.930Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 35%
+2024-09-22T19:15:55.931Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 36%
+2024-09-22T19:15:55.932Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 37%
+2024-09-22T19:15:55.933Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 38%
+2024-09-22T19:15:55.934Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 39%
+2024-09-22T19:15:55.934Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 40%
+2024-09-22T19:15:55.953Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 41%
+2024-09-22T19:15:55.954Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 42%
+2024-09-22T19:15:55.956Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 43%
+2024-09-22T19:15:55.958Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 44%
+2024-09-22T19:15:55.958Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 45%
+2024-09-22T19:15:55.959Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 46%
+2024-09-22T19:15:55.960Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 47%
+2024-09-22T19:15:55.960Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 48%
+2024-09-22T19:15:55.962Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 49%
+2024-09-22T19:15:55.963Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 50%
+2024-09-22T19:15:55.964Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 51%
+2024-09-22T19:15:55.964Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 52%
+2024-09-22T19:15:55.965Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 53%
+2024-09-22T19:15:55.965Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 54%
+2024-09-22T19:15:55.966Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 56%
+2024-09-22T19:15:55.966Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 57%
+2024-09-22T19:15:55.966Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 58%
+2024-09-22T19:15:55.967Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 60%
+2024-09-22T19:15:55.967Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 61%
+2024-09-22T19:15:55.967Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 62%
+2024-09-22T19:15:55.968Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 63%
+2024-09-22T19:15:55.968Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 64%
+2024-09-22T19:15:55.969Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 66%
+2024-09-22T19:15:55.969Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 67%
+2024-09-22T19:15:55.969Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 68%
+2024-09-22T19:15:55.970Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 69%
+2024-09-22T19:15:55.970Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 71%
+2024-09-22T19:15:55.970Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 73%
+2024-09-22T19:15:55.971Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 76%
+2024-09-22T19:15:55.971Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 78%
+2024-09-22T19:15:55.972Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 80%
+2024-09-22T19:15:55.972Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 81%
+2024-09-22T19:15:55.999Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 82%
+2024-09-22T19:15:55.999Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 83%
+2024-09-22T19:15:56.000Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 84%
+2024-09-22T19:15:56.000Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 85%
+2024-09-22T19:15:56.001Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 88%
+2024-09-22T19:15:56.002Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 89%
+2024-09-22T19:15:56.002Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 91%
+2024-09-22T19:15:56.003Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 95%
+2024-09-22T19:15:56.003Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 98%
+2024-09-22T19:15:56.004Z [Modules] Streaming discord_spellcheck@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip: 100%
+2024-09-22T19:15:56.005Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2024-09-22T19:15:56.005Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip
+2024-09-22T19:15:56.232Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 1%
+2024-09-22T19:15:56.232Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 4%
+2024-09-22T19:15:56.233Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 7%
+2024-09-22T19:15:56.234Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 9%
+2024-09-22T19:15:56.234Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 11%
+2024-09-22T19:15:56.235Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 13%
+2024-09-22T19:15:56.235Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 14%
+2024-09-22T19:15:56.235Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 15%
+2024-09-22T19:15:56.236Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 17%
+2024-09-22T19:15:56.236Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 18%
+2024-09-22T19:15:56.236Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 20%
+2024-09-22T19:15:56.237Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 22%
+2024-09-22T19:15:56.237Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 23%
+2024-09-22T19:15:56.239Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 24%
+2024-09-22T19:15:56.252Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 26%
+2024-09-22T19:15:56.252Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 28%
+2024-09-22T19:15:56.253Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 30%
+2024-09-22T19:15:56.253Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 32%
+2024-09-22T19:15:56.253Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 34%
+2024-09-22T19:15:56.254Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 36%
+2024-09-22T19:15:56.254Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 38%
+2024-09-22T19:15:56.256Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 46%
+2024-09-22T19:15:56.258Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 61%
+2024-09-22T19:15:56.259Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 62%
+2024-09-22T19:15:56.260Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 70%
+2024-09-22T19:15:56.260Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 73%
+2024-09-22T19:15:56.260Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 79%
+2024-09-22T19:15:56.261Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 89%
+2024-09-22T19:15:56.262Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 97%
+2024-09-22T19:15:56.262Z [Modules] Streaming discord_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip: 100%
+2024-09-22T19:15:56.263Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2024-09-22T19:15:56.263Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip
+2024-09-22T19:15:56.608Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 1%
+2024-09-22T19:15:56.610Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 2%
+2024-09-22T19:15:56.612Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 3%
+2024-09-22T19:15:56.626Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 4%
+2024-09-22T19:15:56.628Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 5%
+2024-09-22T19:15:56.629Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 6%
+2024-09-22T19:15:56.630Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 7%
+2024-09-22T19:15:56.630Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 8%
+2024-09-22T19:15:56.644Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 9%
+2024-09-22T19:15:56.645Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 10%
+2024-09-22T19:15:56.648Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 11%
+2024-09-22T19:15:56.650Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 12%
+2024-09-22T19:15:56.663Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 13%
+2024-09-22T19:15:56.665Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 14%
+2024-09-22T19:15:56.666Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 15%
+2024-09-22T19:15:56.666Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 16%
+2024-09-22T19:15:56.667Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 17%
+2024-09-22T19:15:56.689Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 18%
+2024-09-22T19:15:56.691Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 19%
+2024-09-22T19:15:56.693Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 20%
+2024-09-22T19:15:56.695Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 21%
+2024-09-22T19:15:56.710Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 22%
+2024-09-22T19:15:56.712Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 23%
+2024-09-22T19:15:56.713Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 24%
+2024-09-22T19:15:56.714Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 25%
+2024-09-22T19:15:56.715Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 26%
+2024-09-22T19:15:56.716Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 27%
+2024-09-22T19:15:56.717Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 28%
+2024-09-22T19:15:56.717Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 29%
+2024-09-22T19:15:56.718Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 30%
+2024-09-22T19:15:56.722Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 31%
+2024-09-22T19:15:56.724Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 32%
+2024-09-22T19:15:56.726Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 33%
+2024-09-22T19:15:56.728Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 34%
+2024-09-22T19:15:56.753Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 35%
+2024-09-22T19:15:56.755Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 36%
+2024-09-22T19:15:56.757Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 37%
+2024-09-22T19:15:56.759Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 38%
+2024-09-22T19:15:56.762Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 39%
+2024-09-22T19:15:56.775Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 40%
+2024-09-22T19:15:56.776Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 41%
+2024-09-22T19:15:56.777Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 42%
+2024-09-22T19:15:56.778Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 43%
+2024-09-22T19:15:56.796Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 44%
+2024-09-22T19:15:56.798Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 45%
+2024-09-22T19:15:56.800Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 46%
+2024-09-22T19:15:56.802Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 47%
+2024-09-22T19:15:56.816Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 48%
+2024-09-22T19:15:56.819Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 49%
+2024-09-22T19:15:56.820Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 50%
+2024-09-22T19:15:56.821Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 51%
+2024-09-22T19:15:56.821Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 52%
+2024-09-22T19:15:56.913Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 53%
+2024-09-22T19:15:56.915Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 54%
+2024-09-22T19:15:56.917Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 55%
+2024-09-22T19:15:56.919Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 56%
+2024-09-22T19:15:56.932Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 57%
+2024-09-22T19:15:56.934Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 58%
+2024-09-22T19:15:56.934Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 59%
+2024-09-22T19:15:56.935Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 60%
+2024-09-22T19:15:56.935Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 61%
+2024-09-22T19:15:56.963Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 62%
+2024-09-22T19:15:56.965Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 63%
+2024-09-22T19:15:56.967Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 64%
+2024-09-22T19:15:56.968Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 65%
+2024-09-22T19:15:56.984Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 66%
+2024-09-22T19:15:56.985Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 67%
+2024-09-22T19:15:56.985Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 68%
+2024-09-22T19:15:56.986Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 69%
+2024-09-22T19:15:56.986Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 70%
+2024-09-22T19:15:56.987Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 71%
+2024-09-22T19:15:56.987Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 72%
+2024-09-22T19:15:56.988Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 73%
+2024-09-22T19:15:56.991Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 74%
+2024-09-22T19:15:56.992Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 75%
+2024-09-22T19:15:56.995Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 76%
+2024-09-22T19:15:56.997Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 77%
+2024-09-22T19:15:56.999Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 78%
+2024-09-22T19:15:57.032Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 79%
+2024-09-22T19:15:57.034Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 80%
+2024-09-22T19:15:57.036Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 81%
+2024-09-22T19:15:57.038Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 82%
+2024-09-22T19:15:57.051Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 83%
+2024-09-22T19:15:57.053Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 84%
+2024-09-22T19:15:57.054Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 85%
+2024-09-22T19:15:57.055Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 86%
+2024-09-22T19:15:57.055Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 87%
+2024-09-22T19:15:57.064Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 88%
+2024-09-22T19:15:57.066Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 89%
+2024-09-22T19:15:57.068Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 90%
+2024-09-22T19:15:57.070Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 91%
+2024-09-22T19:15:57.084Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 92%
+2024-09-22T19:15:57.085Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 93%
+2024-09-22T19:15:57.086Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 94%
+2024-09-22T19:15:57.087Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 95%
+2024-09-22T19:15:57.087Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 96%
+2024-09-22T19:15:57.101Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 97%
+2024-09-22T19:15:57.103Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 98%
+2024-09-22T19:15:57.105Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 99%
+2024-09-22T19:15:57.106Z [Modules] Streaming discord_voice@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip: 100%
+2024-09-22T19:15:57.107Z [Modules] Fetching discord_zstd@1 from https://discord.com/api/modules/stable/discord_zstd/1
+2024-09-22T19:15:57.107Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip
+2024-09-22T19:15:57.319Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 5%
+2024-09-22T19:15:57.320Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 6%
+2024-09-22T19:15:57.323Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 8%
+2024-09-22T19:15:57.325Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 10%
+2024-09-22T19:15:57.327Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 12%
+2024-09-22T19:15:57.331Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 13%
+2024-09-22T19:15:57.333Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 15%
+2024-09-22T19:15:57.335Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 18%
+2024-09-22T19:15:57.337Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 21%
+2024-09-22T19:15:57.340Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 25%
+2024-09-22T19:15:57.342Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 29%
+2024-09-22T19:15:57.344Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 30%
+2024-09-22T19:15:57.345Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 34%
+2024-09-22T19:15:57.346Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 37%
+2024-09-22T19:15:57.349Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 40%
+2024-09-22T19:15:57.351Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 43%
+2024-09-22T19:15:57.353Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 47%
+2024-09-22T19:15:57.354Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 48%
+2024-09-22T19:15:57.355Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 52%
+2024-09-22T19:15:57.357Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 54%
+2024-09-22T19:15:57.358Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 58%
+2024-09-22T19:15:57.359Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 60%
+2024-09-22T19:15:57.360Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 67%
+2024-09-22T19:15:57.362Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 76%
+2024-09-22T19:15:57.364Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 82%
+2024-09-22T19:15:57.366Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 85%
+2024-09-22T19:15:57.368Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 91%
+2024-09-22T19:15:57.371Z [Modules] Streaming discord_zstd@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip: 100%
+2024-09-22T19:15:57.372Z [Modules] Finished module downloads. [success: 6] [failure: 0]
+2024-09-22T19:15:57.372Z [Modules] Installing updates...
+2024-09-22T19:15:57.372Z [Modules] Installing discord_desktop_core@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_desktop_core-1.zip
+2024-09-22T19:15:57.447Z [Modules] Installing discord_erlpack@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_erlpack-1.zip
+2024-09-22T19:15:57.482Z [Modules] Installing discord_spellcheck@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_spellcheck-1.zip
+2024-09-22T19:15:57.897Z [Modules] Installing discord_utils@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_utils-1.zip
+2024-09-22T19:15:57.977Z [Modules] Installing discord_voice@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_voice-1.zip
+2024-09-22T19:15:58.336Z [Modules] Installing discord_zstd@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_zstd-1.zip
+2024-09-22T19:15:58.344Z [Modules] Finished module installations. [success: 6] [failure: 0]
+2024-09-22T19:15:58.344Z [Modules] Checking for host updates.
+2024-09-22T19:15:58.548Z [Modules] Host is up to date.
+2024-09-22T19:15:58.548Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-22T19:15:58.550Z [Modules] No module updates available.
+2024-09-22T19:15:59.528Z [Modules] Starting to install discord_krisp...
+2024-09-22T19:15:59.529Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2024-09-22T19:15:59.529Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip
+2024-09-22T19:15:59.534Z [Modules] Starting to install discord_game_utils...
+2024-09-22T19:15:59.940Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 8%
+2024-09-22T19:16:00.007Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 9%
+2024-09-22T19:16:00.034Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 10%
+2024-09-22T19:16:00.035Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 11%
+2024-09-22T19:16:00.035Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 12%
+2024-09-22T19:16:00.035Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 13%
+2024-09-22T19:16:00.036Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 14%
+2024-09-22T19:16:00.036Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 15%
+2024-09-22T19:16:00.037Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 16%
+2024-09-22T19:16:00.037Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 17%
+2024-09-22T19:16:00.038Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 18%
+2024-09-22T19:16:00.038Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 19%
+2024-09-22T19:16:00.039Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 20%
+2024-09-22T19:16:00.039Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 21%
+2024-09-22T19:16:00.039Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 22%
+2024-09-22T19:16:00.039Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 23%
+2024-09-22T19:16:00.040Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 24%
+2024-09-22T19:16:00.040Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 25%
+2024-09-22T19:16:00.042Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 26%
+2024-09-22T19:16:00.046Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 27%
+2024-09-22T19:16:00.048Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 28%
+2024-09-22T19:16:00.050Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 29%
+2024-09-22T19:16:00.069Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 30%
+2024-09-22T19:16:00.096Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 31%
+2024-09-22T19:16:00.096Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 32%
+2024-09-22T19:16:00.097Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 33%
+2024-09-22T19:16:00.098Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 34%
+2024-09-22T19:16:00.098Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 35%
+2024-09-22T19:16:00.099Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 36%
+2024-09-22T19:16:00.100Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 37%
+2024-09-22T19:16:00.101Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 38%
+2024-09-22T19:16:00.101Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 39%
+2024-09-22T19:16:00.102Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 40%
+2024-09-22T19:16:00.103Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 41%
+2024-09-22T19:16:00.103Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 42%
+2024-09-22T19:16:00.104Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 43%
+2024-09-22T19:16:00.104Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 44%
+2024-09-22T19:16:00.105Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 45%
+2024-09-22T19:16:00.105Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 46%
+2024-09-22T19:16:00.105Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 47%
+2024-09-22T19:16:00.106Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 48%
+2024-09-22T19:16:00.108Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 49%
+2024-09-22T19:16:00.110Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 50%
+2024-09-22T19:16:00.112Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 51%
+2024-09-22T19:16:00.114Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 52%
+2024-09-22T19:16:00.116Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 53%
+2024-09-22T19:16:00.149Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 54%
+2024-09-22T19:16:00.150Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 55%
+2024-09-22T19:16:00.150Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 56%
+2024-09-22T19:16:00.151Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 57%
+2024-09-22T19:16:00.151Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 58%
+2024-09-22T19:16:00.152Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 59%
+2024-09-22T19:16:00.165Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 60%
+2024-09-22T19:16:00.166Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 61%
+2024-09-22T19:16:00.166Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 62%
+2024-09-22T19:16:00.167Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 63%
+2024-09-22T19:16:00.168Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 64%
+2024-09-22T19:16:00.168Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 65%
+2024-09-22T19:16:00.169Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 66%
+2024-09-22T19:16:00.170Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 67%
+2024-09-22T19:16:00.170Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 68%
+2024-09-22T19:16:00.170Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 69%
+2024-09-22T19:16:00.171Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 70%
+2024-09-22T19:16:00.174Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 71%
+2024-09-22T19:16:00.176Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 72%
+2024-09-22T19:16:00.178Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 73%
+2024-09-22T19:16:00.180Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 74%
+2024-09-22T19:16:00.183Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 75%
+2024-09-22T19:16:00.221Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 76%
+2024-09-22T19:16:00.223Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 77%
+2024-09-22T19:16:00.224Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 78%
+2024-09-22T19:16:00.227Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 79%
+2024-09-22T19:16:00.228Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 80%
+2024-09-22T19:16:00.231Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 81%
+2024-09-22T19:16:00.231Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 82%
+2024-09-22T19:16:00.232Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 83%
+2024-09-22T19:16:00.236Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 84%
+2024-09-22T19:16:00.236Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 85%
+2024-09-22T19:16:00.237Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 86%
+2024-09-22T19:16:00.238Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 87%
+2024-09-22T19:16:00.238Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 88%
+2024-09-22T19:16:00.239Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 89%
+2024-09-22T19:16:00.240Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 90%
+2024-09-22T19:16:00.240Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 91%
+2024-09-22T19:16:00.241Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 92%
+2024-09-22T19:16:00.241Z [Modules] Checking for host updates.
+2024-09-22T19:16:00.243Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 93%
+2024-09-22T19:16:00.246Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 94%
+2024-09-22T19:16:00.248Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 95%
+2024-09-22T19:16:00.252Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 96%
+2024-09-22T19:16:00.262Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 97%
+2024-09-22T19:16:00.263Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 98%
+2024-09-22T19:16:00.272Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 99%
+2024-09-22T19:16:00.273Z [Modules] Streaming discord_krisp@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip: 100%
+2024-09-22T19:16:00.274Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2024-09-22T19:16:00.274Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip
+2024-09-22T19:16:00.274Z [Modules] Installing discord_krisp@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_krisp-1.zip
+2024-09-22T19:16:00.319Z [Modules] Starting to install discord_rpc...
+2024-09-22T19:16:00.422Z [Modules] Host is up to date.
+2024-09-22T19:16:00.422Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-22T19:16:00.424Z [Modules] No module updates available.
+2024-09-22T19:16:00.471Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 2%
+2024-09-22T19:16:00.471Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 4%
+2024-09-22T19:16:00.471Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 7%
+2024-09-22T19:16:00.472Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 9%
+2024-09-22T19:16:00.472Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 10%
+2024-09-22T19:16:00.473Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 12%
+2024-09-22T19:16:00.473Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 13%
+2024-09-22T19:16:00.474Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 15%
+2024-09-22T19:16:00.474Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 17%
+2024-09-22T19:16:00.474Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 18%
+2024-09-22T19:16:00.475Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 20%
+2024-09-22T19:16:00.475Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 21%
+2024-09-22T19:16:00.476Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 24%
+2024-09-22T19:16:00.477Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 27%
+2024-09-22T19:16:00.477Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 28%
+2024-09-22T19:16:00.477Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 30%
+2024-09-22T19:16:00.478Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 31%
+2024-09-22T19:16:00.478Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 34%
+2024-09-22T19:16:00.478Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 35%
+2024-09-22T19:16:00.480Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 36%
+2024-09-22T19:16:00.490Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 38%
+2024-09-22T19:16:00.490Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 41%
+2024-09-22T19:16:00.491Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 43%
+2024-09-22T19:16:00.491Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 44%
+2024-09-22T19:16:00.491Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 47%
+2024-09-22T19:16:00.491Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 49%
+2024-09-22T19:16:00.492Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 51%
+2024-09-22T19:16:00.492Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 54%
+2024-09-22T19:16:00.492Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 56%
+2024-09-22T19:16:00.493Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 59%
+2024-09-22T19:16:00.493Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 61%
+2024-09-22T19:16:00.493Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 63%
+2024-09-22T19:16:00.494Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 66%
+2024-09-22T19:16:00.494Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 68%
+2024-09-22T19:16:00.494Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 71%
+2024-09-22T19:16:00.494Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 73%
+2024-09-22T19:16:00.495Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 75%
+2024-09-22T19:16:00.495Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 82%
+2024-09-22T19:16:00.495Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 89%
+2024-09-22T19:16:00.495Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 94%
+2024-09-22T19:16:00.496Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 96%
+2024-09-22T19:16:00.498Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 98%
+2024-09-22T19:16:00.499Z [Modules] Streaming discord_game_utils@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip: 100%
+2024-09-22T19:16:00.499Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2024-09-22T19:16:00.499Z [Modules] Streaming discord_rpc@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_rpc-1.zip
+2024-09-22T19:16:00.552Z [Modules] Installing discord_game_utils@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_game_utils-1.zip
+2024-09-22T19:16:00.594Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2024-09-22T19:16:00.742Z [Modules] Streaming discord_rpc@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_rpc-1.zip: 96%
+2024-09-22T19:16:00.742Z [Modules] Streaming discord_rpc@1 to /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_rpc-1.zip: 100%
+2024-09-22T19:16:00.743Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2024-09-22T19:16:00.743Z [Modules] Installing discord_rpc@1 from /home/ivailobsu/.config/discord/0.0.68/modules/pending/discord_rpc-1.zip
+2024-09-22T19:16:00.756Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2024-09-22T19:52:12.652Z [Modules] Modules initializing
+2024-09-22T19:52:12.652Z [Modules] Distribution: remote
+2024-09-22T19:52:12.652Z [Modules] Host updates: enabled
+2024-09-22T19:52:12.652Z [Modules] Module updates: enabled
+2024-09-22T19:52:12.652Z [Modules] Module install path: /home/ivailobsu/.config/discord/0.0.68/modules
+2024-09-22T19:52:12.652Z [Modules] Module installed file path: /home/ivailobsu/.config/discord/0.0.68/modules/installed.json
+2024-09-22T19:52:12.652Z [Modules] Module download path: /home/ivailobsu/.config/discord/0.0.68/modules/pending
+2024-09-22T19:52:13.050Z [Modules] No updates to install
+2024-09-22T19:52:13.050Z [Modules] Checking for host updates.
+2024-09-22T19:52:13.278Z [Modules] Host is up to date.
+2024-09-22T19:52:13.279Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-22T19:52:13.311Z [Modules] No module updates available.
+2024-09-22T19:52:15.330Z [Modules] Checking for host updates.
+2024-09-22T19:52:15.518Z [Modules] Host is up to date.
+2024-09-22T19:52:15.518Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-22T19:52:15.521Z [Modules] No module updates available.
+2024-09-22T19:52:16.140Z [Modules] Checking for host updates.
+2024-09-22T19:52:16.379Z [Modules] Host is up to date.
+2024-09-22T19:52:16.379Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-22T19:52:16.381Z [Modules] No module updates available.
+2024-09-23T14:51:47.062Z [Modules] Modules initializing
+2024-09-23T14:51:47.062Z [Modules] Distribution: remote
+2024-09-23T14:51:47.062Z [Modules] Host updates: enabled
+2024-09-23T14:51:47.062Z [Modules] Module updates: enabled
+2024-09-23T14:51:47.064Z [Modules] Module install path: /home/ivailobsu/.config/discord/0.0.68/modules
+2024-09-23T14:51:47.064Z [Modules] Module installed file path: /home/ivailobsu/.config/discord/0.0.68/modules/installed.json
+2024-09-23T14:51:47.064Z [Modules] Module download path: /home/ivailobsu/.config/discord/0.0.68/modules/pending
+2024-09-23T14:51:47.491Z [Modules] No updates to install
+2024-09-23T14:51:47.491Z [Modules] Checking for host updates.
+2024-09-23T14:51:47.748Z [Modules] Host is up to date.
+2024-09-23T14:51:47.748Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-23T14:51:47.795Z [Modules] No module updates available.
+2024-09-23T14:51:49.487Z [Modules] Checking for host updates.
+2024-09-23T14:51:49.685Z [Modules] Host is up to date.
+2024-09-23T14:51:49.685Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-23T14:51:49.687Z [Modules] No module updates available.
+2024-09-23T15:05:35.539Z [Modules] Modules initializing
+2024-09-23T15:05:35.539Z [Modules] Distribution: remote
+2024-09-23T15:05:35.539Z [Modules] Host updates: enabled
+2024-09-23T15:05:35.539Z [Modules] Module updates: enabled
+2024-09-23T15:05:35.539Z [Modules] Module install path: /home/ivailobsu/.config/discord/0.0.68/modules
+2024-09-23T15:05:35.539Z [Modules] Module installed file path: /home/ivailobsu/.config/discord/0.0.68/modules/installed.json
+2024-09-23T15:05:35.539Z [Modules] Module download path: /home/ivailobsu/.config/discord/0.0.68/modules/pending
+2024-09-23T15:05:35.890Z [Modules] No updates to install
+2024-09-23T15:05:35.890Z [Modules] Checking for host updates.
+2024-09-23T15:05:36.155Z [Modules] Host is up to date.
+2024-09-23T15:05:36.156Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-23T15:05:36.180Z [Modules] No module updates available.
+2024-09-23T15:05:37.571Z [Modules] Checking for host updates.
+2024-09-23T15:05:37.772Z [Modules] Host is up to date.
+2024-09-23T15:05:37.772Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2024-09-23T15:05:37.776Z [Modules] No module updates available.

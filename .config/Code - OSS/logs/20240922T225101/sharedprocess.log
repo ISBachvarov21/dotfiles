@@ -1,0 +1,16 @@
+2024-09-22 22:54:27.646 [info] Getting Manifest... drcika.apc-extension
+2024-09-22 22:54:27.797 [info] Installing extension: drcika.apc-extension {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/ivailobsu/.vscode-oss/extensions/extensions.json","path":"/home/ivailobsu/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.93.1","date":"2024-09-13T07:34:01.258Z"}}
+2024-09-22 22:54:28.468 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-fork.js
+2024-09-22 22:54:28.469 [info] Extension signature verification is not done: drcika.apc-extension
+2024-09-22 22:54:28.501 [info] Extracted extension to file:///home/ivailobsu/.vscode-oss/extensions/drcika.apc-extension-0.4.1-universal: drcika.apc-extension
+2024-09-22 22:54:28.504 [info] Renamed to /home/ivailobsu/.vscode-oss/extensions/drcika.apc-extension-0.4.1-universal
+2024-09-22 22:54:28.512 [info] Extension installed successfully: drcika.apc-extension vscode-userdata:/home/ivailobsu/.vscode-oss/extensions/extensions.json
+2024-09-22 22:54:28.586 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/ivailobsu/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/ivailobsu/.vscode-oss/extensions/extensions.json.vsctmp'
+    at o.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19406)
+    at u (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19517)
+    at $.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36674)
+    at $.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29001)
+    at async c.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14931)
+    at async W.ub (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120356)

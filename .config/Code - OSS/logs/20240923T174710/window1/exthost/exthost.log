@@ -1,0 +1,10 @@
+2024-09-23 17:47:12.059 [info] Extension host with pid 2957 started
+2024-09-23 17:47:12.078 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-23 17:47:12.097 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-09-23 17:47:12.100 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-23 17:47:12.113 [info] Eager extensions activated
+2024-09-23 17:47:12.115 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-23 17:47:12.118 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-23 17:47:12.124 [info] ExtensionService#_doActivateExtension drcika.apc-extension, startup: false, activationEvent: 'onStartupFinished'
+2024-09-23 17:51:40.863 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-23 17:51:40.865 [info] Extension host with pid 2957 exiting with code 0
